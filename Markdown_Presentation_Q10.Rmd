@@ -1,0 +1,51 @@
+---
+title: "Lab 4 - RStudio and R Markdown Presentation Slide"
+author: "Rakesh Kumar"
+date: "Date: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+## R Language
+
+R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and MacOS. To download R, please choose your preferred CRAN mirror.
+
+---
+
+## Features of R Programming:
+
+-   Open-source
+-   Strong Graphical Capabilities
+-   Highly Active Community
+-   A Wide Selection of Packages
+-   Comprehensive Environment
+
+---
+
+## R Vs Python
+
+R is a statistical language used for the analysis and visual representation of data. Python is better suitable for machine learning, deep learning, and large-scale web applications. R is suitable for statistical learning having powerful libraries for data experiment and exploration.
+
+---
+
+# R language even number counter program
+
+```{r Event number}
+
+temp <- c(2,50,3,9,8,11,6)
+count <- 0
+for (val in temp) {
+  if(val %% 2 == 0)  {
+      count = count+1
+  }
+}
+print(count)
+```
+
+
+
